@@ -1,0 +1,57 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "dataTables.bootstrap4.css";
+
+
+
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+  height: 50px;
+  box-sizing: border-box;
+}
+
+#currencies_length, div.dataTables_wrapper div.dataTables_filter {
+  display: inline-block;
+}
+
+div.dataTables_wrapper div.dataTables_filter{
+  float: right;
+}
+
+.page-link{
+  display: inline-block;
+  color:black;
+  background:none;
+}
+
+.page-link.current{
+  color: #fff;
+  background-color: #212629;
+  border-color: #212629;
+}
+
+#currencies_paginate{
+  display: inline-block;
+  float: right;
+}
+
+#currencies_info{
+  display: inline-block;
+}
+
+.header{
+  margin: 20px auto;
+  border-bottom: 1px solid black;
+}
+
+section.currencies{
+  margin-bottom: 30px;
+}
